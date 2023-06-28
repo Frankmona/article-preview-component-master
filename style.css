@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+body{
+background-color: hsl(210, 46%, 95%);
+}
+
+.section{
+    align-self: center;
+    background-color: white;
+    width: 55%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    border-radius: 12px;
+}
+
+.img_drawer{
+    width: 40%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.article{
+    padding:25px;
+    font-family: 'Manrope', sans-serif;
+}
+h3{
+    color: hsl(217, 19%, 35%);
+    padding-bottom: 20px;
+}
+
+h5{
+    color:  hsl(217, 19%, 35%);
+}
+
+.main_paragraph{
+    color: hsl(214, 17%, 51%);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.profile{
+    display: flex;
+    gap: 1rem;
+    margin-top: 15px;
+}
+
+.img_profile{
+    border-radius: 50%;
+    width: 12%;
+}
+.date_paragraph{
+    color: hsl(214, 17%, 51%);
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.share_profile{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.share{
+    margin-top: 15px;
+}
+
+.circle_icon {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: hsl(212, 23%, 69%);
+    color: white;
+  }
+
+.social_brand{
+    width: 150px;
+    height: 25px;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 555px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9px;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+
+}
+.triangle-down {
+    width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-top: 8px solid hsl(217, 19%, 35%);
+    position: absolute;
+    margin-top: 25px;
+    /* margin-left: 20%; */
+}
+.fa{
+    color: white;
+}
+
+.p_share{
+color: hsl(214, 17%, 51%);
+letter-spacing: 2px;
+}
+/* hide text */
+.social_brand {
+    display: none;
+  }
+  .show-text .social_brand {
+    display:flex
+  }
