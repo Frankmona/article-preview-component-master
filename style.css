@@ -113,13 +113,13 @@ h5{
 }
 
 .p_share{
-color: hsl(214, 17%, 51%);
-letter-spacing: 2px;
-}
-/* hide text */
-.social_brand {
-    display: none;
-  }
-  .show-text .social_brand {
-    display:flex
-  }
+    color: hsl(214, 17%, 51%);
+    letter-spacing: 2px;
+    }
+    /* hide text */
+    .social_brand {
+        display: none;
+      }
+      .show-text .social_brand {
+        display:flex
+      }
